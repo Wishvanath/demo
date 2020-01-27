@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import {BrowserRouter as Router , Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import Home from './component/home'
 import About from './component/about'
 import ContactUs from './component/contact-us'
