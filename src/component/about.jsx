@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import {Link} from 'react-router-dom'
 import  './common.style.scss'
 export default class About extends Component {
     render() {
@@ -48,7 +49,9 @@ export default class About extends Component {
                                     <p>JQuery</p>
                                     <p>Rest Api</p>
                                 </span>
-                                <button className="btn btn_download mr-3">View More</button>
+                                <Link to ="/contact-us">
+                                    <button className="btn btn_download mr-3">View More</button>
+                                </Link>
                                 <button className="btn btn_download" id="send_message">Send Message</button>
                             </div>
                         </div>
